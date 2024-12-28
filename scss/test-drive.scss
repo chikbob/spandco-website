@@ -1,0 +1,626 @@
+@import "media_mixin";
+
+.test-drive {
+  margin: 97px 181px 126px;
+  color: rgb(48, 48, 48);
+
+  &__invite {
+
+    &-header {
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 65px;
+    }
+
+    &-description {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 33px;
+
+      margin: 0 0 70px;
+    }
+
+    &-list {
+      display: flex;
+      justify-content: space-between;
+
+      margin: 0 0 70px;
+
+      &_item {
+
+        &_another {
+          width: 100%;
+        }
+
+        &-header {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 33px;
+
+          margin: 0 0 18px;
+        }
+
+        &-input {
+          width: 700px;
+          height: 79px;
+
+          color: rgb(123, 123, 123);
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 33px;
+
+          padding: 0 0 0 32px;
+
+          box-sizing: border-box;
+          border: 3px solid rgb(201, 201, 201);
+          background: rgb(255, 255, 255);
+        }
+
+        &-description {
+          width: 100%;
+          height: 159px;
+
+          box-sizing: border-box;
+          border: 3px solid rgb(201, 201, 201);
+          background: rgb(255, 255, 255);
+
+          resize: none;
+
+          color: rgb(123, 123, 123);
+          font-family: Open Sans, serif;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 33px;
+        }
+
+        &-checkbox {
+          display: flex;
+          text-align: center;
+
+          width: 700px;
+
+          margin: 51px 0 56px;
+
+          color: rgb(48, 48, 48);
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+
+          & input {
+            width: 26px;
+            height: 26px;
+
+            margin: 0 8px 0 0;
+          }
+        }
+      }
+    }
+
+    &-button {
+      width: 403px;
+      height: 65px;
+
+      margin: -18px 0 34px;
+
+      cursor: pointer;
+
+      color: rgb(233, 233, 233);
+      font-family: Open Sans;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 33px;
+    }
+  }
+}
+
+@include _1700 {
+  .test-drive {
+    margin: 97px 181px 126px;
+
+    &__invite {
+
+      &-header {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 65px;
+      }
+
+      &-description {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 33px;
+
+        margin: 0 0 70px;
+      }
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        margin: 0 0 40px;
+
+        &_item {
+
+          &_another {
+            width: 100%;
+          }
+
+          &-header {
+            font-size: 24px;
+            line-height: 33px;
+
+            margin: 0 0 18px;
+          }
+
+          &-input {
+            width: 500px;
+            height: 65px;
+
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 33px;
+
+            padding: 0 0 0 32px;
+          }
+
+          &-description {
+            width: 100%;
+            height: 159px;
+
+            resize: none;
+
+            font-size: 24px;
+            line-height: 33px;
+          }
+
+          &-checkbox {
+            display: flex;
+            text-align: start;
+
+            width: 500px;
+
+            margin: 51px 0 56px;
+
+            font-size: 20px;
+            line-height: 30px;
+
+            & input {
+              width: 26px;
+              height: 26px;
+
+              margin: 0 8px 0 0;
+            }
+          }
+        }
+      }
+
+      &-button {
+        width: 403px;
+        height: 65px;
+
+        margin: -18px 0 34px;
+
+        cursor: pointer;
+
+        font-size: 24px;
+        line-height: 33px;
+      }
+    }
+  }
+}
+
+@include _1570 {
+  .test-drive {
+    margin: 50px 181px 126px;
+
+    &__invite {
+
+      &-header {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 65px;
+      }
+
+      &-description {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 33px;
+
+        margin: 0 0 40px;
+      }
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        margin: 0 0 40px;
+
+        &_item {
+
+          &_another {
+            width: 100%;
+          }
+
+          &-header {
+            font-size: 24px;
+            line-height: 33px;
+
+            margin: 0 0 18px;
+          }
+
+          &-input {
+            width: 400px;
+            height: 60px;
+
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 25px;
+
+            padding: 0 0 0 32px;
+          }
+
+          &-description {
+            width: 100%;
+            height: 159px;
+
+            resize: none;
+
+            font-size: 24px;
+            line-height: 33px;
+          }
+
+          &-checkbox {
+            display: flex;
+            text-align: start;
+
+            width: 400px;
+
+            margin: 51px 0 56px;
+
+            font-size: 20px;
+            line-height: 30px;
+
+            & input {
+              width: 26px;
+              height: 26px;
+
+              margin: 0 8px 0 0;
+            }
+          }
+        }
+      }
+
+      &-button {
+        width: 403px;
+        height: 65px;
+
+        margin: -18px 0 34px;
+
+        cursor: pointer;
+
+        font-size: 24px;
+        line-height: 33px;
+      }
+    }
+  }
+}
+
+@include _1250 {
+  .test-drive {
+    width: 80%;
+    margin: 50px auto 126px;
+
+    &__invite {
+
+      &-header {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 65px;
+      }
+
+      &-description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+
+        margin: 0 0 40px;
+      }
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+
+        margin: 0 0 30px;
+
+        &_item {
+
+          &_another {
+            width: 100%;
+          }
+
+          &-header {
+            font-size: 20px;
+            line-height: 15px;
+
+            margin: 0 0 18px;
+          }
+
+          &-input {
+            width: 350px;
+            height: 60px;
+
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 33px;
+
+            padding: 0 0 0 32px;
+          }
+          &-description {
+            width: 100%;
+            height: 159px;
+
+            resize: none;
+
+            font-size: 24px;
+            line-height: 33px;
+          }
+
+          &-checkbox {
+            display: flex;
+            text-align: start;
+
+            width: 350px;
+
+            margin: 51px 0 56px;
+
+            font-size: 20px;
+            line-height: 30px;
+
+            & input {
+              width: 26px;
+              height: 26px;
+
+              margin: 0 8px 0 0;
+            }
+          }
+        }
+      }
+
+      &-button {
+        width: 300px;
+        height: 55px;
+
+        margin: -18px 0 34px;
+
+        cursor: pointer;
+
+        font-size: 20px;
+        line-height: 25px;
+      }
+
+      &-info {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@include _1170 {
+
+}
+
+@include _960 {
+  .test-drive {
+    width: 80%;
+    margin: 50px auto 126px;
+
+    &__invite {
+      &-header {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 65px;
+      }
+
+      &-description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+
+        margin: 0 0 40px;
+      }
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: 0;
+
+        &_item {
+          margin: 0 0 30px;
+
+          &_another {
+            width: 100%;
+          }
+
+          &-header {
+            font-size: 20px;
+            line-height: 15px;
+
+            margin: 0 0 18px;
+          }
+
+          &-input {
+            width: 70%;
+            height: 60px;
+
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 33px;
+
+            padding: 0 0 0 32px;
+          }
+          &-description {
+            width: 100%;
+            height: 159px;
+
+            resize: none;
+
+            font-size: 24px;
+            line-height: 33px;
+          }
+
+          &-checkbox {
+            display: flex;
+            text-align: start;
+
+            width: 70%;
+
+            margin: 0;
+
+            font-size: 20px;
+            line-height: 30px;
+
+            & input {
+              width: 26px;
+              height: 26px;
+
+              margin: 0 8px 0 0;
+            }
+          }
+        }
+      }
+
+      &-button {
+        width: 300px;
+        height: 55px;
+
+        margin: -18px 0 34px;
+
+        cursor: pointer;
+
+        font-size: 20px;
+        line-height: 25px;
+      }
+
+      &-info {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@include _768 {
+
+}
+
+@include _600 {
+
+}
+
+@include _480 {
+  .test-drive {
+    width: 80%;
+    margin: 40px auto 126px;
+
+    &__invite {
+      &-header {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 40px;
+
+        margin: 0 0 20px;
+      }
+
+      &-description {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+
+        margin: 0 0 40px;
+      }
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: 0;
+
+        &_item {
+          margin: 0 0 30px;
+
+          &_another {
+            width: 100%;
+          }
+
+          &-header {
+            font-size: 20px;
+            line-height: 15px;
+
+            margin: 0 0 18px;
+          }
+
+          &-input {
+            width: 80%;
+            height: 60px;
+
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 33px;
+
+            padding: 0 0 0 32px;
+          }
+          &-description {
+            width: 100%;
+            height: 159px;
+
+            resize: none;
+
+            font-size: 20px;
+            line-height: 25px;
+          }
+
+          &-checkbox {
+            display: flex;
+            text-align: start;
+
+            width: 70%;
+
+            margin: 0;
+
+            font-size: 20px;
+            line-height: 30px;
+
+            & input {
+              width: 26px;
+              height: 26px;
+
+              margin: 0 8px 0 0;
+            }
+          }
+        }
+      }
+
+      &-button {
+        width: 80%;
+        height: 55px;
+
+        margin: 20px 0;
+
+        cursor: pointer;
+
+        font-size: 20px;
+        line-height: 25px;
+      }
+
+      &-info {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@include _350 {
+
+}

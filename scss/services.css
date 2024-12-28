@@ -1,0 +1,621 @@
+.services {
+  margin: 97px 181px 150px;
+  color: rgb(48, 48, 48);
+}
+.services:last-child {
+  margin: 0;
+}
+.services__header {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 65px;
+  margin: 0 0 75px;
+}
+.services__banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 140px;
+}
+.services__banner-item_header {
+  display: flex;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 65px;
+}
+.services__banner-item_header-another {
+  margin: 0 0 0 10px;
+  font-weight: 700;
+  color: rgb(126, 82, 67);
+}
+.services__banner-item_description {
+  width: 480px;
+  height: 147px;
+  margin: 34px 0;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49px;
+}
+.services__banner-item_button {
+  width: 330px;
+  height: 65px;
+  cursor: pointer;
+}
+.services__banner-item img {
+  width: 762px;
+  height: 508px;
+}
+.services__invite-header {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 65px;
+}
+.services__invite-description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  margin: 0 0 70px;
+}
+.services__invite-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 70px;
+}
+.services__invite-list_item_another {
+  width: 100%;
+}
+.services__invite-list_item-header {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  margin: 0 0 18px;
+}
+.services__invite-list_item-input {
+  width: 600px;
+  height: 79px;
+  color: rgb(123, 123, 123);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  padding: 0 0 0 32px;
+  box-sizing: border-box;
+  border: 3px solid rgb(201, 201, 201);
+  background: rgb(255, 255, 255);
+}
+.services__invite-list_item-description {
+  width: 100%;
+  height: 159px;
+  box-sizing: border-box;
+  border: 3px solid rgb(201, 201, 201);
+  background: rgb(255, 255, 255);
+  resize: none;
+  color: rgb(123, 123, 123);
+  font-family: Open Sans, serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.services__invite-button {
+  width: 403px;
+  height: 65px;
+  margin: -18px 0 34px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+@media (max-width: 1700px) {
+  .services {
+    width: 80%;
+    margin: 97px auto 150px;
+  }
+  .services:last-child {
+    margin: 0;
+  }
+  .services__header {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+    margin: 0 0 75px;
+  }
+  .services__banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 140px;
+  }
+  .services__banner-item_header {
+    display: flex;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+  .services__banner-item_header-another {
+    margin: 0 0 0 10px;
+    font-weight: 700;
+  }
+  .services__banner-item_description {
+    width: 480px;
+    height: 147px;
+    margin: 34px 0;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+  }
+  .services__banner-item_button {
+    width: 330px;
+    height: 65px;
+    cursor: pointer;
+  }
+  .services__banner-item img {
+    width: 450px;
+    height: auto;
+  }
+  .services__invite-header {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+  .services__invite-description {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 0 0 70px;
+  }
+  .services__invite-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 40px;
+  }
+  .services__invite-list_item_another {
+    width: 100%;
+  }
+  .services__invite-list_item-header {
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0 0 18px;
+  }
+  .services__invite-list_item-input {
+    width: 500px;
+    height: 65px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 0 0 32px;
+  }
+  .services__invite-list_item-description {
+    width: 100%;
+    height: 159px;
+    resize: none;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .services__invite-button {
+    width: 403px;
+    height: 65px;
+    margin: -18px 0 34px;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 1250px) {
+  .services {
+    width: 80%;
+    margin: 40px auto 150px;
+  }
+  .services:last-child {
+    margin: 0;
+  }
+  .services__header {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0 0 40px;
+  }
+  .services__banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 70px;
+  }
+  .services__banner-item_header {
+    display: flex;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .services__banner-item_header-another {
+    margin: 0 0 0 10px;
+    font-weight: 700;
+  }
+  .services__banner-item_description {
+    width: 60%;
+    height: auto;
+    margin: 34px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .services__banner-item_button {
+    width: 250px;
+    height: 55px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .services__banner-item img {
+    width: 450px;
+    height: auto;
+  }
+  .services__invite-header {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+  .services__invite-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 0 0 40px;
+  }
+  .services__invite-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 40px;
+  }
+  .services__invite-list_item_another {
+    width: 100%;
+  }
+  .services__invite-list_item-header {
+    font-size: 20px;
+    line-height: 15px;
+    margin: 0 0 18px;
+  }
+  .services__invite-list_item-input {
+    width: 350px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 0 0 32px;
+  }
+  .services__invite-list_item-description {
+    width: 100%;
+    height: 159px;
+    resize: none;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .services__invite-button {
+    width: 300px;
+    height: 55px;
+    margin: -18px 0 34px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .services__invite-info {
+    font-size: 15px;
+  }
+}
+@media (max-width: 979px) {
+  .services {
+    width: 80%;
+    margin: 40px auto 150px;
+  }
+  .services:last-child {
+    margin: 0;
+  }
+  .services__header {
+    display: none;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0;
+  }
+  .services__banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .services__banner-item {
+    display: none;
+  }
+  .services__banner-item_header {
+    display: flex;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .services__banner-item_header-another {
+    margin: 0 0 0 10px;
+    font-weight: 700;
+  }
+  .services__banner-item_description {
+    width: 60%;
+    height: auto;
+    margin: 34px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .services__banner-item_button {
+    width: 250px;
+    height: 55px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .services__banner-item img {
+    display: none;
+    width: 450px;
+    height: auto;
+  }
+  .services__invite-header {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+  .services__invite-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 0 0 40px;
+  }
+  .services__invite-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .services__invite-list_item {
+    margin: 0 0 30px;
+  }
+  .services__invite-list_item_another {
+    width: 100%;
+  }
+  .services__invite-list_item-header {
+    font-size: 20px;
+    line-height: 15px;
+    margin: 0 0 18px;
+  }
+  .services__invite-list_item-input {
+    width: 50%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 0 0 32px;
+  }
+  .services__invite-list_item-description {
+    width: 100%;
+    height: 159px;
+    resize: none;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .services__invite-button {
+    width: 300px;
+    height: 55px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .services__invite-info {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .services {
+    width: 80%;
+    margin: 40px auto 150px;
+  }
+  .services:last-child {
+    margin: 0;
+  }
+  .services__header {
+    display: none;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0;
+  }
+  .services__banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .services__banner-item {
+    display: none;
+  }
+  .services__banner-item_header {
+    display: flex;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .services__banner-item_header-another {
+    margin: 0 0 0 10px;
+    font-weight: 700;
+  }
+  .services__banner-item_description {
+    width: 60%;
+    height: auto;
+    margin: 34px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .services__banner-item_button {
+    width: 250px;
+    height: 55px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .services__banner-item img {
+    display: none;
+    width: 450px;
+    height: auto;
+  }
+  .services__invite-header {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+  .services__invite-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 0 0 40px;
+  }
+  .services__invite-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .services__invite-list_item {
+    margin: 0 0 30px;
+  }
+  .services__invite-list_item_another {
+    width: 100%;
+  }
+  .services__invite-list_item-header {
+    font-size: 20px;
+    line-height: 15px;
+    margin: 0 0 18px;
+  }
+  .services__invite-list_item-input {
+    width: 80%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 0 0 32px;
+  }
+  .services__invite-list_item-description {
+    width: 100%;
+    height: 159px;
+    resize: none;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .services__invite-button {
+    width: 70%;
+    height: 55px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .services__invite-info {
+    font-size: 15px;
+  }
+}
+@media (max-width: 350px) {
+  .services {
+    width: 80%;
+    margin: 40px auto 150px;
+  }
+  .services:last-child {
+    margin: 0;
+  }
+  .services__header {
+    display: none;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0;
+  }
+  .services__banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .services__banner-item {
+    display: none;
+  }
+  .services__banner-item_header {
+    display: flex;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .services__banner-item_header-another {
+    margin: 0 0 0 10px;
+    font-weight: 700;
+  }
+  .services__banner-item_description {
+    width: 60%;
+    height: auto;
+    margin: 34px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .services__banner-item_button {
+    width: 250px;
+    height: 55px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .services__banner-item img {
+    display: none;
+    width: 450px;
+    height: auto;
+  }
+  .services__invite-header {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 35px;
+  }
+  .services__invite-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 15px 0 40px;
+  }
+  .services__invite-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .services__invite-list_item {
+    margin: 0 0 30px;
+  }
+  .services__invite-list_item_another {
+    width: 100%;
+  }
+  .services__invite-list_item-header {
+    font-size: 20px;
+    line-height: 15px;
+    margin: 0 0 18px;
+  }
+  .services__invite-list_item-input {
+    width: 80%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 0 0 32px;
+  }
+  .services__invite-list_item-description {
+    width: 100%;
+    height: 159px;
+    resize: none;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .services__invite-button {
+    width: 80%;
+    height: 55px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .services__invite-info {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */

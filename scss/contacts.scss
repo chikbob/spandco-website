@@ -1,0 +1,103 @@
+@import "media_mixin";
+
+.contacts {
+  color: rgb(48, 48, 48);
+
+  margin: 87px 180px 200px;
+
+  &__header {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+
+    margin: 0 0 97px;
+  }
+
+  &__text {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: justify;
+  }
+}
+
+ul {
+  margin: 0;
+}
+
+@include _1700 {
+  .contacts {
+    color: rgb(48, 48, 48);
+
+    width: 80%;
+    margin: 40px auto 100px;
+
+    &__header {
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 65px;
+
+      margin: 0 0 30px;
+    }
+
+    &__text {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 40px;
+      text-align: justify;
+    }
+  }
+}
+
+@include _1570 {
+
+}
+
+@include _1250 {
+
+}
+
+@include _1170 {
+
+}
+
+@include _960 {
+
+}
+
+@include _768 {
+  .contacts {
+    color: rgb(48, 48, 48);
+
+    width: 80%;
+    margin: 40px auto 60px;
+
+    &__header {
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 40px;
+
+      margin: 0 0 30px;
+    }
+
+    &__text {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: left;
+    }
+  }
+}
+
+@include _600 {
+
+}
+
+@include _480 {
+
+}
+
+@include _350 {
+
+}
+

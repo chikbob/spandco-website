@@ -5,11 +5,242 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SP&CO</title>
   <link rel="stylesheet" href="scss/style.css">
-  <link rel="stylesheet" href="scss/index.css">
-  <link rel="stylesheet" href="scss/header.css">
+  <link rel="stylesheet" href="scss/services.css">
+  <link rel="stylesheet" href="scss/header-black.css">
   <link rel="stylesheet" href="scss/footer.css">
+  <script src="js/modalWindow.js"></script>
 </head>
 <body>
+<header class="header">
+  <div class="header__list">
+    <a href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+      <img class="header__list-logo" src="img/default%20logo.png" alt="default%20logo.png">
+    </a>
+    <nav class="header__list-nav">
+      <a class="header__list-item" href="auto.html">Автомобілі</a>
+      <a class="header__list-item" href="services.html">Послуги</a>
+      <a class="header__list-item" href="test-drive.html">Тест-драйв</a>
+      <a class="header__list-item" href="about.html">Про нас</a>
+      <a class="header__list-item" href="contacts.html">Контакти</a>
+    </nav>
+    <button class="header__list-menu" onclick="toggleMenu()">&#9776;</button>
+  </div>
+</header>
+<div id="modal" class="header__modal">
+  <div class="header__modal-content"><span class="header__modal-close" onclick="toggleMenu()">&times;</span>
+    <a class="header__list-item" href="auto.html">Автомобілі</a>
+    <a class="header__list-item" href="services.html">Послуги</a>
+    <a class="header__list-item" href="test-drive.html">Тест-драйв</a>
+    <a class="header__list-item" href="about.html">Про нас</a>
+    <a class="header__list-item" href="contacts.html">Контакти</a>
+  </div>
+</div>
 
+<div class="services">
+  <div class="services__header">
+    Послуги
+  </div>
+  <div class="services__banner">
+    <div class="services__banner-item">
+      <div class="services__banner-item_header">
+        Автосервіс
+        <div class="services__banner-item_header-another">
+          SP&CO
+        </div>
+      </div>
+      <div class="services__banner-item_description">
+        Технічне обслуговування і ремонт авто в Києві та області
+      </div>
+      <a href="#invite">
+        <button onClick="" class="services__banner-item_button">
+          Записатись на сервіс
+        </button>
+      </a>
+
+    </div>
+    <div class="services__banner-item">
+      <img src="img/banner_poslugi.jpg" alt="banner_poslugi.jpg">
+    </div>
+  </div>
+  <div class="services__invite">
+    <div id="invite" class="services__invite-header">
+      Запис на сервіс.
+    </div>
+    <div class="services__invite-description">
+      Залиште свою контактну інформацію, і дилер зв'яжеться з Вами.
+    </div>
+    <div class="services__invite-list">
+      <div class="services__invite-list_item">
+        <div class="services__invite-list_item-header">
+          Оберіть дилера: *
+        </div>
+        <select class="services__invite-list_item-input">
+          <option value="" disabled selected>Оберіть</option>
+          <option value="AutoPrime">АвтоПрайм</option>
+          <option value="CarPro">КарПро</option>
+          <option value="AutoExpert">АвтоЕксперт</option>
+          <option value="MotorTrade">МоторТрейд</option>
+          <option value="AutoLife">АвтоЛайф</option>
+          <option value="PremiumAuto">ПреміумАвто</option>
+          <option value="ForsageAuto">ФорсажАвто</option>
+        </select>
+      </div>
+    </div>
+    <div class="services__invite-list">
+      <div class="services__invite-list_item">
+        <div class="services__invite-list_item-header">
+          Причина звернення: *
+        </div>
+        <select class="services__invite-list_item-input">
+          <option value="" disabled selected>Оберіть</option>
+          <option value="service1">Регулярне технічне обслуговування автомобіля</option>
+          <option value="service2">Заміна масла та фільтрів</option>
+          <option value="service3">Перевірка і ремонт гальмівної системи</option>
+          <option value="service4">Діагностика двигуна та електронних систем</option>
+          <option value="service5">Сезонна заміна шин</option>
+          <option value="service6">Ремонт та фарбування кузова</option>
+          <option value="service7">Перевірка та заправка кондиціонера</option>
+          <option value="service8">Установка додаткового обладнання та аксесуарів</option>
+          <option value="service9">Регулювання підвіски та рульового управління</option>
+          <option value="service10">Оновлення та перепрограмування програмного забезпечення автомобіля</option>
+        </select>
+      </div>
+      <div class="services__invite-list_item">
+        <div class="services__invite-list_item-header">
+          VIN номер: *
+        </div>
+        <input class="services__invite-list_item-input">
+      </div>
+    </div>
+    <div class="services__invite-list">
+      <div class="services__invite-list_item">
+        <div class="services__invite-list_item-header">
+          Ім'я: *
+        </div>
+        <input class="services__invite-list_item-input">
+      </div>
+      <div class="services__invite-list_item">
+        <div class="services__invite-list_item-header">
+          Прізвище: *
+        </div>
+        <input class="services__invite-list_item-input">
+      </div>
+    </div>
+    <div class="services__invite-list">
+      <div class="services__invite-list_item">
+        <div class="services__invite-list_item-header">
+          Телефон: *
+        </div>
+        <input class="services__invite-list_item-input">
+      </div>
+      <div class="services__invite-list_item">
+        <div class="services__invite-list_item-header">
+          Email: *
+        </div>
+        <input class="services__invite-list_item-input">
+      </div>
+    </div>
+    <div class="services__invite-list">
+      <div class="services__invite-list_item_another">
+        <div class="services__invite-list_item-header">
+          Повідомлення:
+        </div>
+        <textarea class="services__invite-list_item-description"></textarea>
+      </div>
+    </div>
+    <button onClick="" class="services__invite-button">
+      Надіслати
+    </button>
+    <div class="services__invite-info">
+      * поля обов'язкові для заповнення.
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer__head">
+    <div class="footer__head-list">
+      <div class="footer__head-item">
+        <div class="footer__head-item_header">
+          Контакти
+        </div>
+        <a class="footer__head-item_link" href="contacts.html">
+          Знайти ділера
+        </a>
+        <a class="footer__head-item_link" href="contacts.html">
+          Зворотній зв'язок
+        </a>
+        <a class="footer__head-item_link" href="contacts.html">
+          Сервісне партнерство с SP&CO
+        </a>
+      </div>
+      <div class="footer__head-item">
+        <div class="footer__head-item_header">
+          Швидкі посилання
+        </div>
+        <a class="footer__head-item_link" href="test-drive.html">
+          Замовити тест-драйв
+        </a>
+        <a class="footer__head-item_link" href="services.html">
+          Список послуг
+        </a>
+        <a class="footer__head-item_link" href="about.html">
+          Про нас
+        </a>
+        <a class="footer__head-item_link" href="auto.html">
+          Автомобілі в наявності
+        </a>
+        <a class="footer__head-item_link" href="contacts.html">
+          Контакти
+        </a>
+      </div>
+      <div class="footer__head-item">
+        <div class="footer__head-item_header">
+          Соціальні мережі
+        </div>
+        <div class="footer__head-item_link">
+          <a href="https://twitter.com/" target="_blank">
+            <img class="footer__head-item_link-mini" src="img/twitter.svg" alt="twitter.svg">
+          </a>
+          <a href="https://instagram.com/" target="_blank">
+            <img class="footer__head-item_link-mini" src="img/instagram.svg" alt="instagram.svg">
+          </a>
+          <a href="https://facebook.com/" target="_blank">
+            <img class="footer__head-item_link-mini" src="img/facebook.svg" alt="facebook.svg">
+          </a>
+        </div>
+        <a class="footer__head-item_link"
+           href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+          <img class="footer__head-item_link-badge" src="img/app-store.png" alt="app-store.png">
+        </a>
+        <a class="footer__head-item_link"
+           href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+          <img class="footer__head-item_link-badge" src="img/google-play.png" alt="google-play.png">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bot">
+    <div class="footer__bot-list">
+      <div class="footer__bot-list-info">
+        © SP&CO 2024
+      </div>
+    </div>
+    <div class="footer__bot-list">
+      <a class="footer__bot-list-item"
+         href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+        Юридична обмовка
+      </a>
+      <a class="footer__bot-list-item"
+         href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+        Вихідні данні
+      </a>
+      <a class="footer__bot-list-item"
+         href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+        Файли кукі
+      </a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

@@ -5,11 +5,208 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SP&CO</title>
   <link rel="stylesheet" href="scss/style.css">
-  <link rel="stylesheet" href="scss/index.css">
-  <link rel="stylesheet" href="scss/header.css">
+  <link rel="stylesheet" href="scss/test-drive.css">
+  <link rel="stylesheet" href="scss/header-black.css">
   <link rel="stylesheet" href="scss/footer.css">
+  <script src="js/modalWindow.js"></script>
 </head>
 <body>
+<header class="header">
+  <div class="header__list">
+    <a href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+      <img class="header__list-logo" src="img/default%20logo.png" alt="default%20logo.png">
+    </a>
+    <nav class="header__list-nav">
+      <a class="header__list-item" href="auto.html">Автомобілі</a>
+      <a class="header__list-item" href="services.html">Послуги</a>
+      <a class="header__list-item" href="test-drive.html">Тест-драйв</a>
+      <a class="header__list-item" href="about.html">Про нас</a>
+      <a class="header__list-item" href="contacts.html">Контакти</a>
+    </nav>
+    <button class="header__list-menu" onclick="toggleMenu()">&#9776;</button>
+  </div>
+</header>
+<div id="modal" class="header__modal">
+  <div class="header__modal-content"><span class="header__modal-close" onclick="toggleMenu()">&times;</span>
+    <a class="header__list-item" href="auto.html">Автомобілі</a>
+    <a class="header__list-item" href="services.html">Послуги</a>
+    <a class="header__list-item" href="test-drive.html">Тест-драйв</a>
+    <a class="header__list-item" href="about.html">Про нас</a>
+    <a class="header__list-item" href="contacts.html">Контакти</a>
+  </div>
+</div>
 
+<div class="test-drive">
+  <div class="test-drive__invite">
+    <div class="test-drive__invite-header">
+      Запис тест драйву.
+    </div>
+    <div class="test-drive__invite-description">
+      Залиште свою контактну інформацію, і дилер зв'яжеться з Вами.
+    </div>
+    <div class="test-drive__invite-list">
+      <div class="test-drive__invite-list_item">
+        <div class="test-drive__invite-list_item-header">
+          Автомобіль для тест-драйву: *
+        </div>
+        <select class="test-drive__invite-list_item-input">
+          <option value="" disabled selected>Оберіть</option>
+          <option value="BMW">BMW M4</option>
+          <option value="Audi">Audi RS5</option>
+          <option value="Mercedes">Mercedes-AMG C63</option>
+          <option value="Porsche">Porsche 911 Carrera</option>
+          <option value="Lexus">Lexus RC F</option>
+          <option value="Alfa">Alfa Romeo Giulia Quadrifoglio</option>
+          <option value="Chevrolet">Chevrolet Camaro SS</option>
+          <option value="Ford">Ford Mustang GT</option>
+          <option value="Tesla">Tesla Model S Plaid</option>
+          <option value="Jaguar">Jaguar F-Type</option>
+        </select>
+      </div>
+    </div>
+    <div class="test-drive__invite-list">
+      <div class="test-drive__invite-list_item">
+        <div class="test-drive__invite-list_item-header">
+          Ім'я: *
+        </div>
+        <input class="test-drive__invite-list_item-input">
+      </div>
+      <div class="test-drive__invite-list_item">
+        <div class="test-drive__invite-list_item-header">
+          Прізвище: *
+        </div>
+        <input class="test-drive__invite-list_item-input">
+      </div>
+    </div>
+    <div class="test-drive__invite-list">
+      <div class="test-drive__invite-list_item">
+        <div class="test-drive__invite-list_item-header">
+          Телефон: *
+        </div>
+        <input class="test-drive__invite-list_item-input">
+      </div>
+      <div class="test-drive__invite-list_item">
+        <div class="test-drive__invite-list_item-header">
+          Email: *
+        </div>
+        <input class="test-drive__invite-list_item-input">
+      </div>
+    </div>
+    <div class="test-drive__invite-list">
+      <div class="test-drive__invite-list_item">
+        <div class="test-drive__invite-list_item-header">
+          Оберіть дилера:  *
+        </div>
+        <select class="test-drive__invite-list_item-input">
+          <option value="" disabled selected>Оберіть</option>
+          <option value="AutoPrime">АвтоПрайм</option>
+          <option value="CarPro">КарПро</option>
+          <option value="AutoExpert">АвтоЕксперт</option>
+          <option value="MotorTrade">МоторТрейд</option>
+          <option value="AutoLife">АвтоЛайф</option>
+          <option value="PremiumAuto">ПреміумАвто</option>
+          <option value="ForsageAuto">ФорсажАвто</option>
+        </select>
+      </div>
+      <div class="test-drive__invite-list_item">
+        <div class="test-drive__invite-list_item-checkbox">
+          <input type="checkbox"> Мені більше 18 років, і у мене є дійсне водійське посвідчення.
+        </div>
+      </div>
+    </div>
+    <button onClick="" class="test-drive__invite-button">
+      Надіслати
+    </button>
+    <div class="test-drive__invite-info">
+      * поля обов'язкові для заповнення.
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer__head">
+    <div class="footer__head-list">
+      <div class="footer__head-item">
+        <div class="footer__head-item_header">
+          Контакти
+        </div>
+        <a class="footer__head-item_link" href="contacts.html">
+          Знайти ділера
+        </a>
+        <a class="footer__head-item_link" href="contacts.html">
+          Зворотній зв'язок
+        </a>
+        <a class="footer__head-item_link" href="contacts.html">
+          Сервісне партнерство с SP&CO
+        </a>
+      </div>
+      <div class="footer__head-item">
+        <div class="footer__head-item_header">
+          Швидкі посилання
+        </div>
+        <a class="footer__head-item_link" href="test-drive.html">
+          Замовити тест-драйв
+        </a>
+        <a class="footer__head-item_link" href="services.html">
+          Список послуг
+        </a>
+        <a class="footer__head-item_link" href="about.html">
+          Про нас
+        </a>
+        <a class="footer__head-item_link" href="auto.html">
+          Автомобілі в наявності
+        </a>
+        <a class="footer__head-item_link" href="contacts.html">
+          Контакти
+        </a>
+      </div>
+      <div class="footer__head-item">
+        <div class="footer__head-item_header">
+          Соціальні мережі
+        </div>
+        <div class="footer__head-item_link">
+          <a href="https://twitter.com/" target="_blank">
+            <img class="footer__head-item_link-mini" src="img/twitter.svg" alt="twitter.svg">
+          </a>
+          <a href="https://instagram.com/" target="_blank">
+            <img class="footer__head-item_link-mini" src="img/instagram.svg" alt="instagram.svg">
+          </a>
+          <a href="https://facebook.com/" target="_blank">
+            <img class="footer__head-item_link-mini" src="img/facebook.svg" alt="facebook.svg">
+          </a>
+        </div>
+        <a class="footer__head-item_link"
+           href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+          <img class="footer__head-item_link-badge" src="img/app-store.png" alt="app-store.png">
+        </a>
+        <a class="footer__head-item_link"
+           href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+          <img class="footer__head-item_link-badge" src="img/google-play.png" alt="google-play.png">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bot">
+    <div class="footer__bot-list">
+      <div class="footer__bot-list-info">
+        © SP&CO 2024
+      </div>
+    </div>
+    <div class="footer__bot-list">
+      <a class="footer__bot-list-item"
+         href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+        Юридична обмовка
+      </a>
+      <a class="footer__bot-list-item"
+         href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+        Вихідні данні
+      </a>
+      <a class="footer__bot-list-item"
+         href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+        Файли кукі
+      </a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

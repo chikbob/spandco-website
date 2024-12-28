@@ -8,18 +8,34 @@
   <link rel="stylesheet" href="scss/index.css">
   <link rel="stylesheet" href="scss/header.css">
   <link rel="stylesheet" href="scss/footer.css">
+  <script src="js/modalWindow.js"></script>
 </head>
 <body>
 <header class="header">
   <div class="header__list">
-    <img class="header__list-logo" src="img/white%20logo.png">
-    <a class="header__list-item" href="auto.html">Автомобілі</a>
-    <a class="header__list-item" href="services.html">Послуги</a>
-    <a class="header__list-item" href="test-drive.html">Тест-драйв</a>
-    <a class="header__list-item" href="about.html">Про нас</a>
-    <a class="header__list-item" href="contacts.html">Контакти</a>
+    <a href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+      <img class="header__list-logo" src="img/white%20logo.png" alt="white%20logo.png">
+    </a>
+    <nav class="header__list-nav">
+      <a class="header__list-item" href="auto.html">Автомобілі</a>
+      <a class="header__list-item" href="services.html">Послуги</a>
+      <a class="header__list-item" href="test-drive.html">Тест-драйв</a>
+      <a class="header__list-item" href="about.html">Про нас</a>
+      <a class="header__list-item" href="contacts.html">Контакти</a>
+    </nav>
+    <button class="header__list-menu" onclick="toggleMenu()">&#9776;</button>
   </div>
 </header>
+<div id="modal" class="header__modal">
+  <div class="header__modal-content"><span class="header__modal-close" onclick="toggleMenu()">&times;</span>
+    <a class="header__list-item" style="color: rgb(48, 48, 48);" href="auto.html">Автомобілі</a>
+    <a class="header__list-item" style="color: rgb(48, 48, 48);" href="services.html">Послуги</a>
+    <a class="header__list-item" style="color: rgb(48, 48, 48);" href="test-drive.html">Тест-драйв</a>
+    <a class="header__list-item" style="color: rgb(48, 48, 48);" href="about.html">Про нас</a>
+    <a class="header__list-item" style="color: rgb(48, 48, 48);" href="contacts.html">Контакти</a>
+  </div>
+</div>
+
 <div class="index">
   <div class="index__banner">
     <img src="img/banner.png" alt="banner.png">
@@ -49,7 +65,7 @@
         <div class="index__autoLinks-card_header">
           Нові автомобілі.
         </div>
-        <a class="index__autoLinks-card_button" href="/">
+        <a class="index__autoLinks-card_button" href="auto.html">
           <div class="index__autoLinks-card_button-text">
             Знайти
           </div>
@@ -62,7 +78,7 @@
         <div class="index__autoLinks-card_header">
           Автомобілі з пробігом.
         </div>
-        <a class="index__autoLinks-card_button" href="/">
+        <a class="index__autoLinks-card_button" href="auto.html">
           <div class="index__autoLinks-card_button-text">
             Знайти
           </div>
@@ -75,7 +91,7 @@
         <div class="index__autoLinks-card_header">
           Створіть своє авто.
         </div>
-        <a class="index__autoLinks-card_button" href="/">
+        <a class="index__autoLinks-card_button" href="auto.html">
           <div class="index__autoLinks-card_button-text">
             Знайти
           </div>
@@ -88,7 +104,7 @@
         <div class="index__autoLinks-card_header">
           Замовити тест-драйв.
         </div>
-        <a class="index__autoLinks-card_button" href="/">
+        <a class="index__autoLinks-card_button" href="test-drive.html">
           <div class="index__autoLinks-card_button-text">
             Знайти
           </div>
@@ -99,86 +115,87 @@
   <div class="index__description">
     *Обмежена пропозиція, деталі уточнюйте у менеджерів автосалону.
   </div>
-  <footer class="footer">
-    <div class="footer__head">
-      <div class="footer__head-list">
-        <div class="footer__head-item">
-          <div class="footer__head-item_header">
-            Контакти
-          </div>
-          <a class="footer__head-item_link" href="contacts.html">
-            Знайти ділера
-          </a>
-          <a class="footer__head-item_link" href="contacts.html">
-            Зворотній зв'язок
-          </a>
-          <a class="footer__head-item_link" href="contacts.html">
-            Сервісне партнерство с SP&CO
-          </a>
-        </div>
-        <div class="footer__head-item">
-          <div class="footer__head-item_header">
-            Швидкі посилання
-          </div>
-          <a class="footer__head-item_link" href="test-drive.html">
-            Замовити тест-драйв
-          </a>
-          <a class="footer__head-item_link" href="services.html">
-            Список послуг
-          </a>
-          <a class="footer__head-item_link" href="about.html">
-            Про нас
-          </a>
-          <a class="footer__head-item_link" href="auto.html">
-            Автомобілі в наявності
-          </a>
-          <a class="footer__head-item_link" href="contacts.html">
-            Контакти
-          </a>
-        </div>
-        <div class="footer__head-item">
-          <div class="footer__head-item_header">
-            Соціальні мережі
-          </div>
-          <div class="footer__head-item_link">
-            <a href="https://twitter.com/" target="_blank">
-              <img class="footer__head-item_link-mini" src="img/twitter.svg" alt="twitter.svg">
-            </a>
-            <a href="https://instagram.com/" target="_blank">
-              <img class="footer__head-item_link-mini" src="img/instagram.svg" alt="instagram.svg">
-            </a>
-            <a href="https://facebook.com/" target="_blank">
-              <img class="footer__head-item_link-mini" src="img/facebook.svg" alt="facebook.svg">
-            </a>
-          </div>
-          <a class="footer__head-item_link" href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
-            <img class="footer__head-item_link-badge" src="img/app-store.png" alt="app-store.png">
-          </a>
-          <a class="footer__head-item_link" href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
-            <img class="footer__head-item_link-badge" src="img/google-play.png" alt="google-play.png">
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="footer__bot">
-      <div class="footer__bot-list">
-        <div class="footer__bot-list-info">
-          © SP&CO 2024
-        </div>
-      </div>
-      <div class="footer__bot-list">
-        <a class="footer__bot-list-item" href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
-          Юридична обмовка
-        </a>
-        <a class="footer__bot-list-item" href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
-          Вихідні данні
-        </a>
-        <a class="footer__bot-list-item" href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
-          Файли кукі
-        </a>
-      </div>
-    </div>
-  </footer>
 </div>
+
+<footer class="footer">
+  <div class="footer__head">
+    <div class="footer__head-list">
+      <div class="footer__head-item">
+        <div class="footer__head-item_header">
+          Контакти
+        </div>
+        <a class="footer__head-item_link" href="contacts.html">
+          Знайти ділера
+        </a>
+        <a class="footer__head-item_link" href="contacts.html">
+          Зворотній зв'язок
+        </a>
+        <a class="footer__head-item_link" href="contacts.html">
+          Сервісне партнерство с SP&CO
+        </a>
+      </div>
+      <div class="footer__head-item">
+        <div class="footer__head-item_header">
+          Швидкі посилання
+        </div>
+        <a class="footer__head-item_link" href="test-drive.html">
+          Замовити тест-драйв
+        </a>
+        <a class="footer__head-item_link" href="services.html">
+          Список послуг
+        </a>
+        <a class="footer__head-item_link" href="about.html">
+          Про нас
+        </a>
+        <a class="footer__head-item_link" href="auto.html">
+          Автомобілі в наявності
+        </a>
+        <a class="footer__head-item_link" href="contacts.html">
+          Контакти
+        </a>
+      </div>
+      <div class="footer__head-item">
+        <div class="footer__head-item_header">
+          Соціальні мережі
+        </div>
+        <div class="footer__head-item_link">
+          <a href="https://twitter.com/" target="_blank">
+            <img class="footer__head-item_link-mini" src="img/twitter.svg" alt="twitter.svg">
+          </a>
+          <a href="https://instagram.com/" target="_blank">
+            <img class="footer__head-item_link-mini" src="img/instagram.svg" alt="instagram.svg">
+          </a>
+          <a href="https://facebook.com/" target="_blank">
+            <img class="footer__head-item_link-mini" src="img/facebook.svg" alt="facebook.svg">
+          </a>
+        </div>
+        <a class="footer__head-item_link" href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+          <img class="footer__head-item_link-badge" src="img/app-store.png" alt="app-store.png">
+        </a>
+        <a class="footer__head-item_link" href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+          <img class="footer__head-item_link-badge" src="img/google-play.png" alt="google-play.png">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bot">
+    <div class="footer__bot-list">
+      <div class="footer__bot-list-info">
+        © SP&CO 2024
+      </div>
+    </div>
+    <div class="footer__bot-list">
+      <a class="footer__bot-list-item" href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+        Юридична обмовка
+      </a>
+      <a class="footer__bot-list-item" href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+        Вихідні данні
+      </a>
+      <a class="footer__bot-list-item" href="http://localhost:63342/sp&co-website/index.html?_ijt=hcjg5e6s2tkf950otnafm5t503&_ij_reload=RELOAD_ON_SAVE">
+        Файли кукі
+      </a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

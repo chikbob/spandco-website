@@ -1,3 +1,5 @@
+@import "media_mixin";
+
 .footer {
 
   &__head {
@@ -81,4 +83,287 @@
       }
     }
   }
+}
+
+@include _1700 {
+
+}
+
+@include _1570 {
+  .footer {
+    &__head {
+      padding: 93px 300px 121px 85px;
+
+      background: rgb(228, 227, 227);
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+      }
+
+      &-item {
+        display: flex;
+        flex-direction: column;
+
+        margin: 0 0 90px;
+
+        &_header {
+          color: rgb(48, 48, 48);
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 27px;
+
+          margin: 0 0 26px;
+        }
+
+        &_link {
+          display: flex;
+
+          color: rgb(48, 48, 48);
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 33px;
+
+          margin: 0 0 20px;
+
+          text-decoration: none;
+
+          &-mini {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px 0 0;
+          }
+
+          &-badge {
+            width: 238px;
+            height: 71px;
+          }
+        }
+      }
+    }
+
+    &__bot {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 33px 85px;
+
+      background: rgb(196, 196, 196);
+      color: rgb(48, 48, 48);
+
+      &-list {
+        display: flex;
+
+        &-info {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 27px;
+        }
+
+        &-item {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 22px;
+
+          margin: 0 0 0 50px;
+
+          color: rgb(48, 48, 48);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@include _1250 {
+
+}
+
+@include _1170 {
+
+}
+
+@include _960 {
+  .footer {
+    &__head {
+      padding: 93px 0 50px 85px;
+
+      background: rgb(228, 227, 227);
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+      }
+
+      &-item {
+        display: flex;
+        flex-direction: column;
+
+        margin: 0 0 50px;
+
+        &_header {
+          color: rgb(48, 48, 48);
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 27px;
+
+          margin: 0 0 26px;
+        }
+
+        &_link {
+          display: flex;
+
+          color: rgb(48, 48, 48);
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 33px;
+
+          margin: 0 0 20px;
+
+          text-decoration: none;
+
+          &-mini {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px 0 0;
+          }
+
+          &-badge {
+            width: 238px;
+            height: 71px;
+          }
+        }
+      }
+    }
+
+    &__bot {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      padding: 33px 85px;
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+
+        &-info {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 27px;
+        }
+
+        &-item {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 22px;
+
+          margin: 20px 0 0;
+        }
+      }
+    }
+  }
+}
+
+@include _768 {
+
+}
+
+@include _600 {
+
+}
+
+@include _480 {
+  .footer {
+    &__head {
+      padding: 50px 0 20px 20px;
+
+      background: rgb(228, 227, 227);
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+      }
+
+      &-item {
+        display: flex;
+        flex-direction: column;
+
+        margin: 0 0 50px;
+
+        &_header {
+          color: rgb(48, 48, 48);
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 20px;
+
+          margin: 0 0 26px;
+        }
+
+        &_link {
+          display: flex;
+
+          color: rgb(48, 48, 48);
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 25px;
+
+          margin: 0 0 15px;
+
+          text-decoration: none;
+
+          &-mini {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px 0 0;
+          }
+
+          &-badge {
+            width: 150px;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    &__bot {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      padding: 33px 85px 33px 20px;
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+
+        &-info {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 27px;
+        }
+
+        &-item {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 22px;
+
+          margin: 20px 0 0;
+        }
+      }
+    }
+  }
+}
+
+@include _350 {
+
 }

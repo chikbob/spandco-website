@@ -7,7 +7,7 @@
   height: 113px;
   z-index: 2;
   box-sizing: border-box;
-  border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(48, 48, 48);
 }
 .header__list {
   display: flex;
@@ -28,7 +28,7 @@
   align-items: center;
   height: 33px;
   margin: 0 34px 0 0;
-  color: rgb(233, 233, 233);
+  color: rgb(48, 48, 48);
   font-size: 24px;
   font-weight: 600;
   line-height: 13px;
@@ -40,9 +40,10 @@
   border: none;
   cursor: pointer;
   margin-left: auto;
-  color: #fff;
+  color: #313131;
 }
 .header__modal {
+  color: rgb(48, 48, 48);
   display: none;
   position: fixed;
   z-index: 999;
@@ -107,4 +108,4 @@
   }
 }
 
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=header-black.css.map */

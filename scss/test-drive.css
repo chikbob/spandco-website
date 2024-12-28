@@ -1,0 +1,429 @@
+.test-drive {
+  margin: 97px 181px 126px;
+  color: rgb(48, 48, 48);
+}
+.test-drive__invite-header {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 65px;
+}
+.test-drive__invite-description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  margin: 0 0 70px;
+}
+.test-drive__invite-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 70px;
+}
+.test-drive__invite-list_item_another {
+  width: 100%;
+}
+.test-drive__invite-list_item-header {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  margin: 0 0 18px;
+}
+.test-drive__invite-list_item-input {
+  width: 700px;
+  height: 79px;
+  color: rgb(123, 123, 123);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  padding: 0 0 0 32px;
+  box-sizing: border-box;
+  border: 3px solid rgb(201, 201, 201);
+  background: rgb(255, 255, 255);
+}
+.test-drive__invite-list_item-description {
+  width: 100%;
+  height: 159px;
+  box-sizing: border-box;
+  border: 3px solid rgb(201, 201, 201);
+  background: rgb(255, 255, 255);
+  resize: none;
+  color: rgb(123, 123, 123);
+  font-family: Open Sans, serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.test-drive__invite-list_item-checkbox {
+  display: flex;
+  text-align: center;
+  width: 700px;
+  margin: 51px 0 56px;
+  color: rgb(48, 48, 48);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.test-drive__invite-list_item-checkbox input {
+  width: 26px;
+  height: 26px;
+  margin: 0 8px 0 0;
+}
+.test-drive__invite-button {
+  width: 403px;
+  height: 65px;
+  margin: -18px 0 34px;
+  cursor: pointer;
+  color: rgb(233, 233, 233);
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+@media (max-width: 1700px) {
+  .test-drive {
+    margin: 97px 181px 126px;
+  }
+  .test-drive__invite-header {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+  .test-drive__invite-description {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 0 0 70px;
+  }
+  .test-drive__invite-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 40px;
+  }
+  .test-drive__invite-list_item_another {
+    width: 100%;
+  }
+  .test-drive__invite-list_item-header {
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0 0 18px;
+  }
+  .test-drive__invite-list_item-input {
+    width: 500px;
+    height: 65px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 0 0 32px;
+  }
+  .test-drive__invite-list_item-description {
+    width: 100%;
+    height: 159px;
+    resize: none;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .test-drive__invite-list_item-checkbox {
+    display: flex;
+    text-align: start;
+    width: 500px;
+    margin: 51px 0 56px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .test-drive__invite-list_item-checkbox input {
+    width: 26px;
+    height: 26px;
+    margin: 0 8px 0 0;
+  }
+  .test-drive__invite-button {
+    width: 403px;
+    height: 65px;
+    margin: -18px 0 34px;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 1570px) {
+  .test-drive {
+    margin: 50px 181px 126px;
+  }
+  .test-drive__invite-header {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+  .test-drive__invite-description {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 0 0 40px;
+  }
+  .test-drive__invite-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 40px;
+  }
+  .test-drive__invite-list_item_another {
+    width: 100%;
+  }
+  .test-drive__invite-list_item-header {
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0 0 18px;
+  }
+  .test-drive__invite-list_item-input {
+    width: 400px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0 0 0 32px;
+  }
+  .test-drive__invite-list_item-description {
+    width: 100%;
+    height: 159px;
+    resize: none;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .test-drive__invite-list_item-checkbox {
+    display: flex;
+    text-align: start;
+    width: 400px;
+    margin: 51px 0 56px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .test-drive__invite-list_item-checkbox input {
+    width: 26px;
+    height: 26px;
+    margin: 0 8px 0 0;
+  }
+  .test-drive__invite-button {
+    width: 403px;
+    height: 65px;
+    margin: -18px 0 34px;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 1250px) {
+  .test-drive {
+    width: 80%;
+    margin: 50px auto 126px;
+  }
+  .test-drive__invite-header {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+  .test-drive__invite-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 0 0 40px;
+  }
+  .test-drive__invite-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px;
+  }
+  .test-drive__invite-list_item_another {
+    width: 100%;
+  }
+  .test-drive__invite-list_item-header {
+    font-size: 20px;
+    line-height: 15px;
+    margin: 0 0 18px;
+  }
+  .test-drive__invite-list_item-input {
+    width: 350px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 0 0 32px;
+  }
+  .test-drive__invite-list_item-description {
+    width: 100%;
+    height: 159px;
+    resize: none;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .test-drive__invite-list_item-checkbox {
+    display: flex;
+    text-align: start;
+    width: 350px;
+    margin: 51px 0 56px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .test-drive__invite-list_item-checkbox input {
+    width: 26px;
+    height: 26px;
+    margin: 0 8px 0 0;
+  }
+  .test-drive__invite-button {
+    width: 300px;
+    height: 55px;
+    margin: -18px 0 34px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .test-drive__invite-info {
+    font-size: 15px;
+  }
+}
+@media (max-width: 979px) {
+  .test-drive {
+    width: 80%;
+    margin: 50px auto 126px;
+  }
+  .test-drive__invite-header {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+  .test-drive__invite-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin: 0 0 40px;
+  }
+  .test-drive__invite-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .test-drive__invite-list_item {
+    margin: 0 0 30px;
+  }
+  .test-drive__invite-list_item_another {
+    width: 100%;
+  }
+  .test-drive__invite-list_item-header {
+    font-size: 20px;
+    line-height: 15px;
+    margin: 0 0 18px;
+  }
+  .test-drive__invite-list_item-input {
+    width: 70%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 0 0 32px;
+  }
+  .test-drive__invite-list_item-description {
+    width: 100%;
+    height: 159px;
+    resize: none;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .test-drive__invite-list_item-checkbox {
+    display: flex;
+    text-align: start;
+    width: 70%;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .test-drive__invite-list_item-checkbox input {
+    width: 26px;
+    height: 26px;
+    margin: 0 8px 0 0;
+  }
+  .test-drive__invite-button {
+    width: 300px;
+    height: 55px;
+    margin: -18px 0 34px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .test-drive__invite-info {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .test-drive {
+    width: 80%;
+    margin: 40px auto 126px;
+  }
+  .test-drive__invite-header {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0 0 20px;
+  }
+  .test-drive__invite-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 40px;
+  }
+  .test-drive__invite-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .test-drive__invite-list_item {
+    margin: 0 0 30px;
+  }
+  .test-drive__invite-list_item_another {
+    width: 100%;
+  }
+  .test-drive__invite-list_item-header {
+    font-size: 20px;
+    line-height: 15px;
+    margin: 0 0 18px;
+  }
+  .test-drive__invite-list_item-input {
+    width: 80%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 0 0 32px;
+  }
+  .test-drive__invite-list_item-description {
+    width: 100%;
+    height: 159px;
+    resize: none;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .test-drive__invite-list_item-checkbox {
+    display: flex;
+    text-align: start;
+    width: 70%;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .test-drive__invite-list_item-checkbox input {
+    width: 26px;
+    height: 26px;
+    margin: 0 8px 0 0;
+  }
+  .test-drive__invite-button {
+    width: 80%;
+    height: 55px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .test-drive__invite-info {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=test-drive.css.map */

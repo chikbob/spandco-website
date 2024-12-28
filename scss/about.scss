@@ -1,0 +1,98 @@
+@import "media_mixin";
+
+.about {
+  color: rgb(48, 48, 48);
+
+  margin: 87px 180px 300px;
+
+  &__header {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+
+    margin: 0 0 97px;
+  }
+
+  &__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: justify;
+  }
+}
+
+@include _1700 {
+  .about {
+    color: rgb(48, 48, 48);
+
+    width: 80%;
+    margin: 87px auto 300px;
+
+    &__header {
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 65px;
+
+      margin: 0 0 97px;
+    }
+
+    &__text {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 33px;
+      text-align: justify;
+    }
+  }
+}
+
+@include _1570 {
+
+}
+
+@include _1250 {
+
+}
+
+@include _1170 {
+
+}
+
+@include _960 {
+
+}
+
+@include _768 {
+
+}
+
+@include _600 {
+  .about {
+    color: rgb(48, 48, 48);
+
+    width: 80%;
+    margin: 40px auto 300px;
+
+    &__header {
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 65px;
+
+      margin: 0 0 30px;
+    }
+
+    &__text {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 33px;
+      text-align: justify;
+    }
+  }
+}
+
+@include _480 {
+
+}
+
+@include _350 {
+
+}

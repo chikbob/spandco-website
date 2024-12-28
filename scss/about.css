@@ -1,0 +1,57 @@
+.about {
+  color: rgb(48, 48, 48);
+  margin: 87px 180px 300px;
+}
+.about__header {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 65px;
+  margin: 0 0 97px;
+}
+.about__text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: justify;
+}
+
+@media (max-width: 1700px) {
+  .about {
+    color: rgb(48, 48, 48);
+    width: 80%;
+    margin: 87px auto 300px;
+  }
+  .about__header {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+    margin: 0 0 97px;
+  }
+  .about__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: justify;
+  }
+}
+@media (max-width: 600px) {
+  .about {
+    color: rgb(48, 48, 48);
+    width: 80%;
+    margin: 40px auto 300px;
+  }
+  .about__header {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+    margin: 0 0 30px;
+  }
+  .about__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: justify;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

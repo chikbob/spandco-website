@@ -1,5 +1,6 @@
-.index {
+@import "media_mixin";
 
+.index {
   &__banner {
     position: relative;
     z-index: 1;
@@ -151,5 +152,703 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
+  }
+}
+
+@include _1700 {
+  .index {
+    &__banner {
+      position: relative;
+      z-index: 1;
+      margin: -10rem 0 0;
+
+      & img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      &-text {
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+        z-index: 2;
+
+        margin: -28rem 9.5% 0;
+
+        &_header {
+          width: 573px;
+
+          font-size: 36px;
+          font-weight: 400;
+          line-height: 45px;
+        }
+
+        &_description {
+          width: 477px;
+
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+
+          margin: 20px 0;
+        }
+
+        &_button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 220px;
+          height: 53px;
+
+          &-text {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    &__autoLinks {
+      position: relative;
+      z-index: 3;
+
+      &-header {
+        width: 453px;
+        height: 65px;
+
+        margin: 260px auto 0;
+
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 65px;
+      }
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: 70px 85px 194px
+      }
+
+      &-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 0 0 50px;
+
+
+        &_img {
+          height: 60px;
+
+          & img {
+            width: 70px;
+          }
+        }
+
+        &_header {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 33px;
+
+          width: 400px;
+          height: 49px;
+
+          margin: 26px 0;
+        }
+
+        &_button {
+          width: 400px;
+          height: 63px;
+
+          &-text {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+
+    &__description {
+      width: 805px;
+      height: 33px;
+
+      margin: 0 0 101px 85px;
+
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 33px;
+    }
+  }
+}
+
+@include _1570 {
+  .index {
+    &__banner {
+      position: relative;
+      z-index: 1;
+      margin: -9rem 0 0;
+
+      & img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      &-text {
+        display: none;
+
+        &_header {
+          width: 573px;
+
+          font-size: 36px;
+          font-weight: 400;
+          line-height: 45px;
+        }
+
+        &_description {
+          width: 477px;
+
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+
+          margin: 20px 0;
+        }
+
+        &_button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 220px;
+          height: 53px;
+
+          &-text {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    &__autoLinks {
+      position: relative;
+      z-index: 3;
+
+      &-header {
+        width: 453px;
+        height: 65px;
+
+        margin: 50px auto 0;
+
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 65px;
+      }
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: 70px 85px 194px
+      }
+
+      &-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 0 0 50px;
+
+
+        &_img {
+          height: 60px;
+
+          & img {
+            width: 70px;
+          }
+        }
+
+        &_header {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 33px;
+
+          width: 400px;
+          height: 49px;
+
+          margin: 26px 0;
+        }
+
+        &_button {
+          width: 400px;
+          height: 63px;
+
+          &-text {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+
+    &__description {
+      display: none;
+    }
+  }
+}
+
+@include _1250 {
+
+}
+
+@include _1170 {
+  .index {
+    &__banner {
+      position: relative;
+      z-index: 1;
+      margin: -10rem 0 0;
+
+      & img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      &-text {
+
+        &_header {
+          width: 573px;
+
+          font-size: 36px;
+          font-weight: 400;
+          line-height: 45px;
+        }
+
+        &_description {
+          width: 477px;
+
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+
+          margin: 20px 0;
+        }
+
+        &_button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 220px;
+          height: 53px;
+
+          &-text {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    &__autoLinks {
+      position: relative;
+      z-index: 3;
+
+      &-header {
+        width: 453px;
+        height: 65px;
+
+        margin: 50px auto 0;
+
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 65px;
+      }
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: 70px 85px 194px
+      }
+
+      &-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 0 0 50px;
+
+
+        &_img {
+          height: 60px;
+
+          & img {
+            width: 70px;
+          }
+        }
+
+        &_header {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 33px;
+
+          width: 400px;
+          height: 49px;
+
+          margin: 26px 0;
+        }
+
+        &_button {
+          width: 400px;
+          height: 63px;
+
+          &-text {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .header__list-nav {
+    display: none;
+  }
+  .header__list-menu {
+    display: block;
+  }
+}
+
+@include _960 {
+
+}
+
+@include _768 {
+
+}
+
+@include _600 {
+  .index {
+    &__autoLinks {
+      position: relative;
+      z-index: 3;
+
+      &-header {
+        display: flex;
+        justify-content: center;
+
+        width: 453px;
+        height: 65px;
+
+        margin: 50px auto 0;
+
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 65px;
+      }
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: 70px 85px 194px
+      }
+
+      &-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 0 0 50px;
+
+
+        &_img {
+          height: 60px;
+
+          & img {
+            width: 70px;
+          }
+        }
+
+        &_header {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 33px;
+
+          width: 400px;
+          height: 49px;
+
+          margin: 26px 0;
+        }
+
+        &_button {
+          width: 300px;
+          height: 55px;
+
+          &-text {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include _480 {
+  .index {
+    &__banner {
+      position: relative;
+      z-index: 1;
+      margin: -6rem 0 0;
+
+      & img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      &-text {
+
+        &_header {
+          width: 573px;
+
+          font-size: 36px;
+          font-weight: 400;
+          line-height: 45px;
+        }
+
+        &_description {
+          width: 477px;
+
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+
+          margin: 20px 0;
+        }
+
+        &_button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 220px;
+          height: 53px;
+
+          &-text {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    &__autoLinks {
+      position: relative;
+      z-index: 3;
+
+      &-header {
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+        height: 65px;
+
+        margin: 50px auto 0;
+
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 40px;
+      }
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: 70px 85px 194px
+      }
+
+      &-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 0 0 50px;
+
+
+        &_img {
+          height: 60px;
+
+          & img {
+            width: 70px;
+          }
+        }
+
+        &_header {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 33px;
+
+          width: 400px;
+          height: 49px;
+
+          margin: 26px 0;
+        }
+
+        &_button {
+          width: 300px;
+          height: 55px;
+
+          &-text {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include _350 {
+  .index {
+    &__banner {
+      position: relative;
+      z-index: 1;
+      margin: -6rem 0 0;
+
+      & img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      &-text {
+
+        &_header {
+          width: 573px;
+
+          font-size: 36px;
+          font-weight: 400;
+          line-height: 45px;
+        }
+
+        &_description {
+          width: 477px;
+
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+
+          margin: 20px 0;
+        }
+
+        &_button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 220px;
+          height: 53px;
+
+          &-text {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    &__autoLinks {
+      position: relative;
+      z-index: 3;
+
+      &-header {
+        display: flex;
+        justify-content: center;
+
+        width: auto;
+        height: 65px;
+
+        margin: 30px auto 0;
+
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+      }
+
+      &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: 30px auto 30px
+      }
+
+      &-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 0 0 50px;
+
+
+        &_img {
+          height: 60px;
+
+          & img {
+            width: 70px;
+          }
+        }
+
+        &_header {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 33px;
+
+          width: 90%;
+          height: 49px;
+
+          margin: 26px 0;
+        }
+
+        &_button {
+          width: 80%;
+          height: 55px;
+
+          &-text {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+          }
+        }
+      }
+    }
   }
 }
